@@ -246,3 +246,5 @@ https://gitlab.gnome.org/GNOME/gtk/issues/221
 Emacs might crash when run in daemon mode and the X11 connection is unexpectedly lost.
 Using an Emacs configured with --with-x-toolkit=lucid does not have this problem.
 Starting Doom Emacs in daemon mode!
+[ 07/22/2024 22:18:28.720 session_init FATAL ERROR ] Another composite manager is already running
+CRITICAL: [dbus_cb_name_lost:1153] Cannot acquire 'org.freedesktop.Notifications': Name is acquired by 'dunst' with PID '221506'.
