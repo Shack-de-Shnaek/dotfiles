@@ -1,23 +1,13 @@
-# Lines configured by zsh-newuser-install
-setopt autocd extendedglob notify
-unsetopt beep
-bindkey -v
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/dragannikolovski/.zshrc'
-
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
+# If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-# ZSH_THEME="agnoster"
 ZSH_THEME="agnoster"
 
 # Set list of themes to pick from when loading at random
@@ -80,12 +70,10 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git python web-search vscode virtualenv jsontools)
-
-export ZSH="$HOME/.oh-my-zsh"
+plugins=(git gitignore archlinux dotenv jsontools node npm python pip virtualenv)
 
 source $ZSH/oh-my-zsh.sh
-source <(fzf --zsh)
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -99,8 +87,14 @@ source <(fzf --zsh)
 # else
 #   export EDITOR='mvim'
 # fi
+
 export EDITOR='nvim'
+export PATH=$PATH:~/.local/bin
+export PATH=$PATH:~/.cargo/bin
+export PATH=$PATH:~/.local/npm-global/bin
+
 export BROWSER='vivaldi'
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
