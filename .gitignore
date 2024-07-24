@@ -1,2 +1,3 @@
 .config/tmux/plugins/*
-*.nohup
+**/nohup
+**/btop.log
