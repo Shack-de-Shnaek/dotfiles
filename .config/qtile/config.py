@@ -1,18 +1,13 @@
 import os
 import subprocess
 
-from xdg import IconTheme
-
 from libqtile import hook
-from libqtile import bar, layout, widget, qtile
+from libqtile import layout, widget
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 
-import custom_widgets
-
 mod = "mod4"
 terminal = "kitty"
-# terminal = "alacritty"
 cursor_warp = True
 
 BACKGROUND = "152128"
@@ -187,36 +182,24 @@ def spawn_program(program_command):
     return f
 
 
-Keyboard = widget.KeyboardLayout(
-    configured_keyboards=["us", "mk"],
-    **widget_defaults,
-)
-
 keys.extend([Key([mod], "space", lazy.widget["keyboardlayout"].next_keyboard())])
-
-Clock = widget.Clock(format="%Y-%m-%d %I:%M %p", **widget_defaults)
-
-GroupBox = widget.GroupBox(
-    highlight_method="line",
-    **widget_defaults,
-)
 
 launch_programs = [
     {
-        "command": "code",
-        "icon_name": "visual-studio-code",
+        "command": "vivaldi",
+        "icon_name": "vivaldi",
     },
     {
         "command": "slack",
         "icon_name": "slack",
     },
     {
-        "command": "brave",
-        "icon_name": "brave-desktop",
-    },
-    {
         "command": "discord",
         "icon_name": "discord",
+    },
+    {
+        "command": "steam",
+        "icon_name": "steam",
     },
     {
         "command": terminal,
@@ -224,80 +207,35 @@ launch_programs = [
     },
 ]
 
-
-def get_launcher_bar():
-    return bar.Bar(
-        [
-            widget.Spacer(length=bar.STRETCH),
-            *[
-                widget.Image(
-                    filename=IconTheme.getIconPath(program["icon_name"]),
-                    margin=4,
-                    mouse_callbacks={"Button1": lazy.function(spawn_program(program["command"]))},
-                )
-                for program in launch_programs
-            ],
-            widget.Spacer(length=bar.STRETCH),
-        ],
-        background=BACKGROUND,
-        size=36,
-        margin=[4, 0, 4, 0],
-    )
-
-
 screens = [
+    Screen(),
     Screen(
-        top=bar.Bar(
-            [
-                widget.CurrentLayout(**widget_defaults),
-                GroupBox,
-                widget.Prompt(**widget_defaults),
-                widget.WindowName(**widget_defaults),
-                widget.Sep(padding=4, foreground=DISABLED),
-                custom_widgets.PlayerCtlSongNameWidget(text="", **widget_defaults),
-                custom_widgets.PlayerCtlPrevWidget(text="", **widget_defaults),
-                custom_widgets.PlayerCtlPlayPauseWidget(text="", **widget_defaults),
-                custom_widgets.PlayerCtlNextWidget(text="", **widget_defaults),
-                widget.Sep(padding=4, foreground=DISABLED),
-                widget.PulseVolume(
-                    update_interval=0.01,
-                    mouse_callbacks={"Button3": lazy.spawn(f"{terminal} alsamixer")},
-                ),
-                widget.CapsNumLockIndicator(**widget_defaults),
-                Keyboard,
-                widget.Systray(),
-                Clock,
-            ],
-            **bar_defaults,
-        ),
-    ),
-    Screen(
-        top=bar.Bar(
-            [
-                widget.CurrentLayout(**widget_defaults),
-                GroupBox,
-                widget.Prompt(**widget_defaults),
-                widget.WindowName(**widget_defaults),
-                Keyboard,
-                widget.CPU(),
-                widget.CPUGraph(
-                    type="box",
-                    mouse_callbacks={"Button1": lazy.function(spawn_program("btop"))},
-                    border_color=SECONDARY,
-                    graph_color=PRIMARY,
-                ),
-                widget.MemoryGraph(
-                    type="box",
-                    mouse_callbacks={"Button1": lazy.function(spawn_program("btop"))},
-                    border_color=BACKGROUND_ALT,
-                    graph_color=PRIMARY,
-                ),
-                widget.Memory(),
-                Clock,
-                widget.QuickExit(),
-            ],
-            **bar_defaults,
-        ),
+        # top=bar.Bar(
+        #     [
+        #         widget.CurrentLayout(**widget_defaults),
+        #         GroupBox,
+        #         widget.Prompt(**widget_defaults),
+        #         widget.WindowName(**widget_defaults),
+        #         Keyboard,
+        #         widget.CPU(),
+        #         widget.CPUGraph(
+        #             type="box",
+        #             mouse_callbacks={"Button1": lazy.function(spawn_program("btop"))},
+        #             border_color=SECONDARY,
+        #             graph_color=PRIMARY,
+        #         ),
+        #         widget.MemoryGraph(
+        #             type="box",
+        #             mouse_callbacks={"Button1": lazy.function(spawn_program("btop"))},
+        #             border_color=BACKGROUND_ALT,
+        #             graph_color=PRIMARY,
+        #         ),
+        #         widget.Memory(),
+        #         Clock,
+        #         widget.QuickExit(),
+        #     ],
+        #     **bar_defaults,
+        # ),
     ),
 ]
 
