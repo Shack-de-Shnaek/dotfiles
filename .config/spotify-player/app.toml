@@ -33,8 +33,8 @@ summary = "{track} • {artists}"
 body = "{album}"
 
 [device]
-name = "Desktop"
-device_type = "computer"
+name = "Laptop"
+device_type = "laptop"
 volume = 70
 bitrate = 320
 audio_cache = false
