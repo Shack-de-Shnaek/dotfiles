@@ -4,7 +4,6 @@ import subprocess
 from xdg import IconTheme
 
 from libqtile import hook, bar, layout, widget, qtile
-from libqtile.command.client import InteractiveCommandClient
 from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 
@@ -15,9 +14,6 @@ terminal = "kitty"
 # terminal = "alacritty"
 
 browser = "vivaldi"
-
-client = InteractiveCommandClient()
-print(client.get_screens())
 
 cursor_warp = True
 
