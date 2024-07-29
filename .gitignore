@@ -1,3 +1,4 @@
 .config/tmux/plugins/*
 **/nohup
 **/btop.log
+.config/spotify-player/app.toml
