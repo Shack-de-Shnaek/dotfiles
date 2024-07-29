@@ -1,5 +1,5 @@
 theme = "tokyonight"
-client_id = "65b708073fc0480ea92a077233ca87bd"
+client_id = "b0a9430357bd4ee68d3554f4843b0c15"
 client_port = 8080
 playback_format = """
 {status} {track} • {artists}
@@ -33,8 +33,8 @@ summary = "{track} • {artists}"
 body = "{album}"
 
 [device]
-name = "spotify-player"
-device_type = "speaker"
+name = "Desktop"
+device_type = "computer"
 volume = 70
 bitrate = 320
 audio_cache = false
