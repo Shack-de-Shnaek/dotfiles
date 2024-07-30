@@ -2,3 +2,5 @@
 **/nohup
 **/btop.log
 .config/spotify-player/app.toml
+**/*.pyc
+**/*cache*
