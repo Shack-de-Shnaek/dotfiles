@@ -70,7 +70,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git gitignore archlinux dotenv jsontools node npm python pip virtualenv)
+plugins=(fzf git gitignore archlinux dotenv jsontools node npm python pip virtualenv)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -108,19 +108,9 @@ export BROWSER='vivaldi'
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 eval "$(zoxide init zsh)"
+eval "$(fzf --zsh)"
+. /opt/asdf-vm/asdf.sh
 
 alias cd="z"
 alias ls="exa"
 alias cat="bat"
-
-# if [[ -z "$ZELLIJ" ]]; then
-#     if [[ "$ZELLIJ_AUTO_ATTACH" == "true" ]]; then
-#         zellij attach -c
-#     else
-#         zellij
-#     fi
-#
-#     if [[ "$ZELLIJ_AUTO_EXIT" == "true" ]]; then
-#         exit
-#     fi
-# fi
