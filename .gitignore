@@ -4,3 +4,4 @@
 .config/spotify-player/app.toml
 **/*.pyc
 **/*cache*
+*.pyc
