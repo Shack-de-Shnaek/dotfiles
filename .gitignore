@@ -1,7 +1,9 @@
 .config/tmux/plugins/*
 **/nohup
 **/btop.log
+.config/btop/btop.log
 .config/spotify-player/app.toml
 **/*.pyc
 **/*cache*
 *.pyc
+**/*.log
