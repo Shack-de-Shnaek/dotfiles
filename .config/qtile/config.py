@@ -192,7 +192,7 @@ def spawn_program(program_command):
 
 
 Keyboard = widget.KeyboardLayout(
-    configured_keyboards=["us", "us colemak", "mk"],
+    configured_keyboards=["us colemak_dh", "us", "mk"],
     **widget_defaults,
 )
 
