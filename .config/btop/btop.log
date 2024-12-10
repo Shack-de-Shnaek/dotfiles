@@ -6,3 +6,315 @@ btop++ needs an interactive shell to run.
 2024/07/21 (11:33:32) | ===> btop++ v.1.3.2
 2024/07/21 (11:33:32) | ERROR: No tty detected!
 btop++ needs an interactive shell to run.
+
+2024/08/26 (15:17:04) | ===> btop++ v.1.3.2
+2024/08/26 (15:17:04) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/08/27 (08:45:15) | ===> btop++ v.1.3.2
+2024/08/27 (08:45:15) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/08/28 (10:17:41) | ===> btop++ v.1.3.2
+2024/08/28 (10:17:41) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/08/29 (11:01:23) | ===> btop++ v.1.3.2
+2024/08/29 (11:01:23) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/08/30 (09:10:26) | ===> btop++ v.1.3.2
+2024/08/30 (09:10:26) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/02 (09:28:05) | ===> btop++ v.1.3.2
+2024/09/02 (09:28:05) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/03 (09:11:19) | ===> btop++ v.1.3.2
+2024/09/03 (09:11:19) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/04 (09:19:05) | ===> btop++ v.1.3.2
+2024/09/04 (09:19:05) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/04 (09:19:45) | ===> btop++ v.1.3.2
+2024/09/04 (09:19:45) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/04 (09:19:56) | ===> btop++ v.1.3.2
+2024/09/04 (09:19:56) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/05 (09:18:21) | ===> btop++ v.1.3.2
+2024/09/05 (09:18:21) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/06 (08:54:55) | ===> btop++ v.1.3.2
+2024/09/06 (08:54:55) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/16 (09:11:49) | ===> btop++ v.1.3.2
+2024/09/16 (09:11:49) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/17 (07:39:53) | ===> btop++ v.1.3.2
+2024/09/17 (07:39:53) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/18 (10:02:52) | ===> btop++ v.1.3.2
+2024/09/18 (10:02:52) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/19 (10:20:58) | ===> btop++ v.1.3.2
+2024/09/19 (10:20:58) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/20 (09:18:44) | ===> btop++ v.1.3.2
+2024/09/20 (09:18:44) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/20 (11:53:28) | ===> btop++ v.1.3.2
+2024/09/20 (11:53:28) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/23 (09:20:46) | ===> btop++ v.1.3.2
+2024/09/23 (09:20:46) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/24 (09:29:56) | ===> btop++ v.1.3.2
+2024/09/24 (09:29:56) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/25 (09:18:50) | ===> btop++ v.1.4.0
+2024/09/25 (09:18:50) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/26 (09:09:34) | ===> btop++ v.1.4.0
+2024/09/26 (09:09:34) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/27 (10:32:05) | ===> btop++ v.1.4.0
+2024/09/27 (10:32:05) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/09/30 (09:16:16) | ===> btop++ v.1.4.0
+2024/09/30 (09:16:16) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/01 (09:25:54) | ===> btop++ v.1.4.0
+2024/10/01 (09:25:54) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/02 (10:29:54) | ===> btop++ v.1.4.0
+2024/10/02 (10:29:54) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/03 (10:47:18) | ===> btop++ v.1.4.0
+2024/10/03 (10:47:18) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/04 (15:26:56) | ===> btop++ v.1.4.0
+2024/10/04 (15:26:56) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/07 (08:21:53) | ===> btop++ v.1.4.0
+2024/10/07 (08:21:53) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/08 (08:58:15) | ===> btop++ v.1.4.0
+2024/10/08 (08:58:15) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/09 (10:14:16) | ===> btop++ v.1.4.0
+2024/10/09 (10:14:16) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/10 (16:08:47) | ===> btop++ v.1.4.0
+2024/10/10 (16:08:47) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/14 (14:27:50) | ===> btop++ v.1.4.0
+2024/10/14 (14:27:50) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/15 (08:55:08) | ===> btop++ v.1.4.0
+2024/10/15 (08:55:08) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/15 (09:40:14) | ===> btop++ v.1.4.0
+2024/10/15 (09:40:14) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/16 (09:17:42) | ===> btop++ v.1.4.0
+2024/10/16 (09:17:42) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/17 (09:30:43) | ===> btop++ v.1.4.0
+2024/10/17 (09:30:43) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/18 (19:13:59) | ===> btop++ v.1.4.0
+2024/10/18 (19:13:59) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/18 (19:37:39) | ===> btop++ v.1.4.0
+2024/10/18 (19:37:39) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/18 (21:11:43) | ===> btop++ v.1.4.0
+2024/10/18 (21:11:43) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/21 (08:41:37) | ===> btop++ v.1.4.0
+2024/10/21 (08:41:37) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/22 (08:53:37) | ===> btop++ v.1.4.0
+2024/10/22 (08:53:37) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/23 (09:10:16) | ===> btop++ v.1.4.0
+2024/10/23 (09:10:16) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/24 (08:55:00) | ===> btop++ v.1.4.0
+2024/10/24 (08:55:00) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/24 (19:05:03) | ===> btop++ v.1.4.0
+2024/10/24 (19:05:03) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/25 (17:49:32) | ===> btop++ v.1.4.0
+2024/10/25 (17:49:32) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/28 (21:50:20) | ===> btop++ v.1.4.0
+2024/10/28 (21:50:20) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/29 (09:25:35) | ===> btop++ v.1.4.0
+2024/10/29 (09:25:35) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/29 (21:46:50) | ===> btop++ v.1.4.0
+2024/10/29 (21:46:50) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/30 (10:00:07) | ===> btop++ v.1.4.0
+2024/10/30 (10:00:07) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/10/31 (09:22:22) | ===> btop++ v.1.4.0
+2024/10/31 (09:22:22) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/01 (21:38:07) | ===> btop++ v.1.4.0
+2024/11/01 (21:38:07) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/05 (08:54:24) | ===> btop++ v.1.4.0
+2024/11/05 (08:54:24) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/06 (09:08:05) | ===> btop++ v.1.4.0
+2024/11/06 (09:08:05) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/07 (10:22:57) | ===> btop++ v.1.4.0
+2024/11/07 (10:22:57) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/08 (09:19:25) | ===> btop++ v.1.4.0
+2024/11/08 (09:19:25) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/11 (09:45:34) | ===> btop++ v.1.4.0
+2024/11/11 (09:45:34) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/12 (09:12:09) | ===> btop++ v.1.4.0
+2024/11/12 (09:12:09) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/13 (07:57:14) | ===> btop++ v.1.4.0
+2024/11/13 (07:57:14) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/14 (09:29:57) | ===> btop++ v.1.4.0
+2024/11/14 (09:29:57) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/15 (09:54:24) | ===> btop++ v.1.4.0
+2024/11/15 (09:54:24) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/18 (09:25:19) | ===> btop++ v.1.4.0
+2024/11/18 (09:25:19) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/19 (09:29:57) | ===> btop++ v.1.4.0
+2024/11/19 (09:29:57) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/19 (14:42:36) | ===> btop++ v.1.4.0
+2024/11/19 (14:42:36) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/21 (09:16:37) | ===> btop++ v.1.4.0
+2024/11/21 (09:16:37) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/21 (09:29:30) | ===> btop++ v.1.4.0
+2024/11/21 (09:29:30) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/26 (09:29:24) | ===> btop++ v.1.4.0
+2024/11/26 (09:29:24) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/27 (10:12:12) | ===> btop++ v.1.4.0
+2024/11/27 (10:12:12) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/28 (09:17:46) | ===> btop++ v.1.4.0
+2024/11/28 (09:17:46) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/29 (09:26:22) | ===> btop++ v.1.4.0
+2024/11/29 (09:26:22) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/29 (11:16:02) | ===> btop++ v.1.4.0
+2024/11/29 (11:16:02) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/29 (12:21:28) | ===> btop++ v.1.4.0
+2024/11/29 (12:21:28) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/11/30 (21:32:58) | ===> btop++ v.1.4.0
+2024/11/30 (21:32:58) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/01 (11:41:31) | ===> btop++ v.1.4.0
+2024/12/01 (11:41:31) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/01 (22:04:16) | ===> btop++ v.1.4.0
+2024/12/01 (22:04:16) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/01 (22:10:17) | ===> btop++ v.1.4.0
+2024/12/01 (22:10:17) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/01 (22:43:11) | ===> btop++ v.1.4.0
+2024/12/01 (22:43:11) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/01 (22:45:27) | ===> btop++ v.1.4.0
+2024/12/01 (22:45:27) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/01 (22:50:53) | ===> btop++ v.1.4.0
+2024/12/01 (22:50:53) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/01 (22:51:06) | ===> btop++ v.1.4.0
+2024/12/01 (22:51:06) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/02 (09:32:53) | ===> btop++ v.1.4.0
+2024/12/02 (09:32:53) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/02 (21:07:18) | ===> btop++ v.1.4.0
+2024/12/02 (21:07:18) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/02 (23:57:58) | ===> btop++ v.1.4.0
+2024/12/02 (23:57:58) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/03 (09:13:30) | ===> btop++ v.1.4.0
+2024/12/03 (09:13:30) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/03 (12:28:35) | ===> btop++ v.1.4.0
+2024/12/03 (12:28:35) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/03 (13:35:33) | ===> btop++ v.1.4.0
+2024/12/03 (13:35:33) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/03 (21:58:27) | ===> btop++ v.1.4.0
+2024/12/03 (21:58:27) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/04 (17:16:23) | ===> btop++ v.1.4.0
+2024/12/04 (17:16:23) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/04 (19:58:29) | ===> btop++ v.1.4.0
+2024/12/04 (19:58:29) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/05 (09:16:57) | ===> btop++ v.1.4.0
+2024/12/05 (09:16:57) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/05 (20:30:30) | ===> btop++ v.1.4.0
+2024/12/05 (20:30:30) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/05 (20:36:02) | ===> btop++ v.1.4.0
+2024/12/05 (20:36:02) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/05 (22:22:00) | ===> btop++ v.1.4.0
+2024/12/05 (22:22:00) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/06 (00:57:20) | ===> btop++ v.1.4.0
+2024/12/06 (00:57:20) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/06 (10:47:10) | ===> btop++ v.1.4.0
+2024/12/06 (10:47:10) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/06 (10:47:31) | ===> btop++ v.1.4.0
+2024/12/06 (10:47:31) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/06 (10:49:35) | ===> btop++ v.1.4.0
+2024/12/06 (10:49:35) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/06 (10:50:13) | ===> btop++ v.1.4.0
+2024/12/06 (10:50:13) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/06 (14:29:53) | ===> btop++ v.1.4.0
+2024/12/06 (14:29:53) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/06 (14:30:02) | ===> btop++ v.1.4.0
+2024/12/06 (14:30:02) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/06 (15:54:50) | ===> btop++ v.1.4.0
+2024/12/06 (15:54:50) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/09 (12:47:41) | ===> btop++ v.1.4.0
+2024/12/09 (12:47:41) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/09 (22:44:56) | ===> btop++ v.1.4.0
+2024/12/09 (22:44:56) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2024/12/10 (09:17:34) | ===> btop++ v.1.4.0
+2024/12/10 (09:17:34) | WARNING: NVML: Failed to get GPU power usage: Not Supported
