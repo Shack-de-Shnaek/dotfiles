@@ -35,7 +35,7 @@ body = "{album}"
 [device]
 name = "Laptop"
 device_type = "laptop"
-volume = 70
+volume = 90
 bitrate = 320
 audio_cache = false
 normalization = false

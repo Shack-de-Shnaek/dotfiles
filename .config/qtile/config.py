@@ -42,6 +42,7 @@ groups = [Group(str(i)) for i in range(1, 10)]
 def switch_to_screen(screen):
     def f(q):
         displays = list(q.screens)
+        # displays.reverse()
         q.to_screen(displays[int(screen) - 1].index)
 
     return f
