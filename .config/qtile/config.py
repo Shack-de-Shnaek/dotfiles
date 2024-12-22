@@ -192,7 +192,8 @@ def spawn_program(program_command):
 
 
 Keyboard = widget.KeyboardLayout(
-    configured_keyboards=["us colemak_dh", "us", "mk"],
+    configured_keyboards=["us", "mk"],
+    # configured_keyboards=["us colemak_dh", "us", "mk"],
     **widget_defaults,
 )
 
@@ -258,17 +259,14 @@ screens = [
                 widget.Prompt(**widget_defaults),
                 widget.WindowName(**widget_defaults),
                 widget.Sep(padding=4, foreground=DISABLED),
-                custom_widgets.PlayerCtlSongNameWidget(text="", **widget_defaults),
-                custom_widgets.PlayerCtlPrevWidget(text="", **widget_defaults),
-                custom_widgets.PlayerCtlPlayPauseWidget(text="", **widget_defaults),
-                custom_widgets.PlayerCtlNextWidget(text="", **widget_defaults),
+				widget.Battery(**widget_defaults, update_interval=0.1),
                 widget.Sep(padding=4, foreground=DISABLED),
                 widget.PulseVolume(
-                    update_interval=0.01,
+                    update_interval=0.1,
                     mouse_callbacks={"Button3": lazy.spawn(f"{terminal} alsamixer")},
                 ),
-                widget.CapsNumLockIndicator(**widget_defaults),
                 Keyboard,
+                widget.Sep(padding=4, foreground=DISABLED),
                 widget.Systray(),
                 Clock,
             ],
