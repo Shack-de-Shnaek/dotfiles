@@ -156,15 +156,15 @@ layouts = [
     layout.Tile(),
     layout.Max(),
     layout.Stack(num_stacks=2),
-    layout.Bsp(margin=4),
-    layout.TreeTab(
-        bg_color=BACKGROUND,
-        active_bg=BACKGROUND_ALT,
-        panel_width=240,
-        padding_y=6,
-        padding_x=8,
-        sections=["ONE", "TWO", "THREE"],
-    ),
+    # layout.Bsp(margin=4),
+    # layout.TreeTab(
+    #     bg_color=BACKGROUND,
+    #     active_bg=BACKGROUND_ALT,
+    #     panel_width=240,
+    #     padding_y=6,
+    #     padding_x=8,
+    #     sections=["ONE", "TWO", "THREE"],
+    # ),
 ]
 
 widget_defaults = {
