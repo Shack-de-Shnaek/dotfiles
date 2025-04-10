@@ -569,3 +569,12 @@ btop++ needs an interactive shell to run.
 
 2025/04/10 (22:08:12) | ===> btop++ v.1.4.0
 2025/04/10 (22:08:12) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2025/04/10 (22:19:52) | ===> btop++ v.1.4.0
+2025/04/10 (22:19:52) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2025/04/10 (22:22:04) | ===> btop++ v.1.4.0
+2025/04/10 (22:22:04) | WARNING: NVML: Failed to get GPU power usage: Not Supported
+
+2025/04/10 (22:22:24) | ===> btop++ v.1.4.0
+2025/04/10 (22:22:24) | WARNING: NVML: Failed to get GPU power usage: Not Supported
