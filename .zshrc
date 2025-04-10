@@ -115,3 +115,23 @@ alias cd="z"
 alias ls="exa"
 alias cat="bat"
 alias vivaldi="vivaldi --disable-gpu-compositing"
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/dragan/.lmstudio/bin"
+
+function activate_env_on_cd() {
+	z $@
+
+	if [[ "$PWD" =~ work\/projects\/[a-zA-Z0-9]+ ]]; then
+		if [[ -z "$VIRTUAL_ENV" ]]; then
+			project_name=$(echo $PWD | awk 'BEGIN { FS="/"; } { print $6 }')
+			source "/home/$USER/work/venvs/$project_name/bin/activate"
+		fi
+	else
+		if [[ ! -z "$VIRTUAL_ENV" ]]; then
+			deactivate
+		fi
+	fi
+}
+
+alias cd="activate_env_on_cd"

@@ -5,3 +5,4 @@ nohup feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png
 nohup greenclip daemon >/dev/null &
 nohup dunst &
 nohup kdeconnect-indicator &
+nohup playerctld daemon &

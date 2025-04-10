@@ -10,7 +10,8 @@ from libqtile.lazy import lazy
 import custom_widgets
 
 mod = "mod4"
-terminal = "kitty"
+terminal = "wezterm"
+# terminal = "kitty"
 # terminal = "alacritty"
 
 browser = "vivaldi"
@@ -306,6 +307,7 @@ screens = [
         ),
     ),
 ]
+# screens.reverse()
 
 # Drag floating layouts.
 mouse = [
