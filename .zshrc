@@ -121,10 +121,12 @@ export PATH="$PATH:/home/dragan/.lmstudio/bin"
 
 function auto_activate_env() {
 	if [[ "$PWD" =~ work\/projects\/[a-zA-Z0-9]+ ]]; then
-		if [[ -z "$VIRTUAL_ENV" ]]; then
-			project_name=$(echo $PWD | awk 'BEGIN { FS="/"; } { print $6 }')
-			source "/home/$USER/work/venvs/$project_name/bin/activate"
-		fi
+        project_name=$(echo $PWD | awk 'BEGIN { FS="/"; } { print $6 }')
+        env_activate_path="/home/$USER/work/venvs/$project_name/bin/activate"
+        if [[ ! -f "$env_activate_path" ]]; then
+            return
+        fi
+        source "$env_activate_path"
 	else
 		if [[ ! -z "$VIRTUAL_ENV" ]]; then
 			deactivate

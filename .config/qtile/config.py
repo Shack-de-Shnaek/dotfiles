@@ -126,7 +126,7 @@ keys = [
     Key([], "XF86MonBrightnessUp", lazy.spawn("brightnessctl set +10%")),
     Key([], "XF86MonBrightnessDown", lazy.spawn("brightnessctl set 10%-")),
     Key([mod], "f", lazy.window.toggle_floating()),
-    Key([mod], "n", lazy.spawn(f"{terminal} nvim")),
+    Key([mod], "n", lazy.spawn(f"{terminal} start nvim")),
     Key([mod], "b", lazy.spawn(browser)),
     Key([mod], "s", lazy.spawn("spotify")),
 ]
