@@ -1,5 +1,5 @@
 #!/bin/sh
 
-nohup viber &
+# nohup viber &
 nohup slack &
 nohup spotify &

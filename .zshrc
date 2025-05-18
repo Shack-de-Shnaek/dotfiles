@@ -115,6 +115,7 @@ alias cd="z"
 alias ls="exa"
 alias cat="bat"
 alias vivaldi="vivaldi --disable-gpu-compositing"
+alias grep="rg"
 
 # Added by LM Studio CLI (lms)
 export PATH="$PATH:/home/dragan/.lmstudio/bin"
