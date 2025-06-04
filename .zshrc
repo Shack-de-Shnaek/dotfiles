@@ -109,7 +109,6 @@ export BROWSER='vivaldi'
 
 eval "$(zoxide init zsh)"
 eval "$(fzf --zsh)"
-. /opt/asdf-vm/asdf.sh
 
 alias cd="z"
 alias ls="exa"

@@ -5,7 +5,7 @@ from libqtile.widget import base
 class PlayerCtlSongNameWidget(base.ThreadPoolText):
     orientations = base.ORIENTATION_HORIZONTAL
     defaults = [
-        ("update_interval", 1.5, "Update interval for the PlayerCtl widget."),
+        ("update_interval", 1, "Update interval for the PlayerCtl widget."),
     ]
 
     def __init__(self, **config):
@@ -34,7 +34,7 @@ class PlayerCtlSongNameWidget(base.ThreadPoolText):
 
             song = subprocess.check_output(meta_command + ["title"]).decode("utf-8").strip()
             artist = subprocess.check_output(meta_command + ["artist"]).decode("utf-8").strip()
-            return f"{song} by {artist}"
+            return f"{song} -- {artist}"
         except subprocess.CalledProcessError as e:
             return "error"
             return "It's quiet..."
@@ -43,7 +43,7 @@ class PlayerCtlSongNameWidget(base.ThreadPoolText):
 class PlayerCtlPrevWidget(base.ThreadPoolText):
     orientations = base.ORIENTATION_HORIZONTAL
     defaults = [
-        ("update_interval", 10, "Update interval for the PlayerCtl widget."),
+        ("update_interval", 100, "Update interval for the PlayerCtl widget."),
     ]
 
     def __init__(self, **config):
@@ -57,7 +57,7 @@ class PlayerCtlPrevWidget(base.ThreadPoolText):
             status = subprocess.check_output(["playerctl", "status"]).decode("utf-8").strip()
             if status not in ["Playing", "Paused"]:
                 return ""
-            return "⏮"
+            return "⟪"
         except subprocess.CalledProcessError:
             return ""
 
@@ -70,7 +70,7 @@ class PlayerCtlPrevWidget(base.ThreadPoolText):
 class PlayerCtlNextWidget(base.ThreadPoolText):
     orientations = base.ORIENTATION_HORIZONTAL
     defaults = [
-        ("update_interval", 10, "Update interval for the PlayerCtl widget."),
+        ("update_interval", 100, "Update interval for the PlayerCtl widget."),
     ]
 
     def __init__(self, **config):
@@ -84,7 +84,7 @@ class PlayerCtlNextWidget(base.ThreadPoolText):
             status = subprocess.check_output(["playerctl", "status"]).decode("utf-8").strip()
             if status not in ["Playing", "Paused"]:
                 return ""
-            return "⏭"
+            return "⟫"
         except subprocess.CalledProcessError:
             return ""
 

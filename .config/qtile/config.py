@@ -10,6 +10,8 @@ from libqtile.lazy import lazy
 import custom_widgets
 
 mod = "mod4"
+# terminal = "st"
+# terminal = "ghostty"
 terminal = "wezterm"
 # terminal = "kitty"
 # terminal = "alacritty"
@@ -195,7 +197,7 @@ def spawn_program(program_command):
 
 Keyboard = widget.KeyboardLayout(
     # configured_keyboards=["us colemak_dh", "us", "mk"],
-    configured_keyboards=["us", "mk"],
+    configured_keyboards=["us", "us dvorak", "mk"],
     **widget_defaults,
 )
 
@@ -260,12 +262,18 @@ screens = [
                 GroupBox,
                 widget.Prompt(**widget_defaults),
                 widget.WindowName(**widget_defaults),
-                # widget.Sep(padding=4, foreground=DISABLED),
-                # custom_widgets.PlayerCtlSongNameWidget(text="", **widget_defaults),
-                # custom_widgets.PlayerCtlPrevWidget(text="", **widget_defaults),
-                # custom_widgets.PlayerCtlPlayPauseWidget(text="", **widget_defaults),
-                # custom_widgets.PlayerCtlNextWidget(text="", **widget_defaults),
-                # widget.Sep(padding=4, foreground=DISABLED),
+                widget.Sep(padding=4, foreground=DISABLED),
+                custom_widgets.PlayerCtlSongNameWidget(text="", **widget_defaults),
+                custom_widgets.PlayerCtlPrevWidget(text="", **widget_defaults),
+                custom_widgets.PlayerCtlPlayPauseWidget(text="", **widget_defaults),
+                custom_widgets.PlayerCtlNextWidget(text="", **widget_defaults),
+                # widget.Mpris2(
+                #     fmt="▶ {xesam: arist}",
+                #     no_metadata_text="no music",
+                #     poll_interval=1,
+                #     scroll=True,
+                # ),
+                widget.Sep(padding=4, foreground=DISABLED),
                 widget.PulseVolume(
                     update_interval=0.01,
                     mouse_callbacks={"Button3": lazy.spawn(f"{terminal} alsamixer")},
